@@ -1,0 +1,132 @@
+:root {
+    --color_azul_principal: #00c8ff;
+    --color_azul_secundario: #55dbff;
+    --color_rojo_principal: #ff170d;
+    --color_rojo_secundario: #ff645e;
+    --color_negro: #000000;
+    --color_negro_claro: #292929;
+    --color_blanco: #eaeae8;
+
+}
+body {
+    background-color: var(--color_blanco);
+
+}
+#nombre {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#profecion {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lema {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color_blanco);
+}
+#contactame {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-right: 180px;
+    position: center;
+    width: 30px;
+    background-color: var(--color_negro_claro);
+    margin-left: 520px;
+}
+#titulo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bloque-1 {
+    text-align: left;
+    line-height: 12px;
+}
+#bloque-2 {
+    position: relative;
+    width: 1250px;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    line-height: 22px;
+    background-image: url("https://cronicasfreelancer.com/wp-content/uploads/2019/08/aprender-a-programar-despues-de-los-30.jpg");
+    background-size: cover;
+}
+
+hr {
+    width: 50px;
+
+}
+h1 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.centrado {
+    text-align: center;
+}
+#front-end {
+    border: 5px var(--color_negro_claro) outset;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    left: 0;
+    right: 740px;
+    background-color: var(--color_blanco);
+}
+#back-end {
+    border: 5px var(--color_negro_claro) outset;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    left: 370px;
+    right: 370px;
+    background-color: var(--color_blanco);
+}
+#full-stack {
+    border: 5px var(--color_negro_claro) outset;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    left: 740px;
+    right: 0;
+    background-color: var(--color_blanco);
+}
+a:hover {
+    color: var(--color_negro_claro);
+    text-decoration: var(--color_negro);
+    
+}
+
+#foto-2 {
+    width: 400;
+    height: 300;
+}
+
+#proyectos{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--color_negro_claro);
+    position:absolute;
+    margin-top: 450px;
+    margin-left: 565px;
+}
+#footer{
+    background-color: var(--color_negro_claro);
+}
