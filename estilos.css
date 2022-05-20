@@ -7,6 +7,9 @@
     --color_negro_claro: #292929;
     --color_blanco: #eaeae8;
 
+    --size_large: 30px;
+    --size_medium: 25px;
+    --size_short: 15px;
 }
 body {
     background-color: var(--color_blanco);
@@ -26,13 +29,12 @@ body {
     color: var(--color_blanco);
 }
 #contactame {
-    font-size: 30px;
+    font-size: var(--size_medium);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 10px;
     padding-right: 180px;
     position: center;
     width: 30px;
-    background-color: var(--color_negro_claro);
     margin-left: 520px;
 }
 #titulo {
@@ -45,12 +47,12 @@ body {
 }
 #bloque-2 {
     position: relative;
+    margin: auto;
     width: 1250px;
-    height: 500px;
+    height: 600px;
     text-align: center;
     padding-top: 100px;
     padding-left: 20px;
-    line-height: 22px;
     background-image: url("https://cronicasfreelancer.com/wp-content/uploads/2019/08/aprender-a-programar-despues-de-los-30.jpg");
     background-size: cover;
 }
@@ -79,7 +81,6 @@ p {
     text-align: center;
 }
 #front-end {
-    border: 5px var(--color_negro_claro) outset;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -89,7 +90,6 @@ p {
     background-color: var(--color_blanco);
 }
 #back-end {
-    border: 5px var(--color_negro_claro) outset;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -99,7 +99,6 @@ p {
     background-color: var(--color_blanco);
 }
 #full-stack {
-    border: 5px var(--color_negro_claro) outset;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -108,10 +107,14 @@ p {
     right: 0;
     background-color: var(--color_blanco);
 }
-a:hover {
-    color: var(--color_negro_claro);
-    text-decoration: var(--color_negro);
-    
+a:link {
+    text-decoration: none;
+}
+a{
+    font-size: var(--size_medium);
+}
+a:hover{
+    font-size: var(--size_large);
 }
 
 #foto-2 {
