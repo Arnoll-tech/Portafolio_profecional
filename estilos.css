@@ -23,12 +23,8 @@ body {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-#lema {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--color_blanco);
-}
-#contactame {
+
+.fotter__bottom-contact_me {
     font-size: var(--size_medium);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 10px;
@@ -37,7 +33,7 @@ body {
     width: 30px;
     margin-left: 520px;
 }
-#titulo {
+.titulo {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,6 +51,10 @@ body {
     padding-left: 20px;
     background-image: url("https://cronicasfreelancer.com/wp-content/uploads/2019/08/aprender-a-programar-despues-de-los-30.jpg");
     background-size: cover;
+}
+.text_one{
+    animation-duration: 2s;
+    animation-name: slides;
 }
 
 hr {
@@ -80,35 +80,39 @@ p {
 .centrado {
     text-align: center;
 }
-#roles{
-    display: grid;
+.roles{
+    background-color: var(--color_negro_claro);
 }
-#front-end {
+.front-end {
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: var(--color_blanco);
+    animation-duration: 2s;
+    animation-name: slides;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.back-end {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    position: absolute;
-    left: 0;
-    right: 740px;
+    position: relative;
     background-color: var(--color_blanco);
+    animation-duration: 3s;
+    animation-name: slides;
+    margin-bottom: 40px;
 }
-#back-end {
+.full-stack {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    position: absolute;
-    left: 370px;
-    right: 370px;
+    position: relative;
     background-color: var(--color_blanco);
-}
-#full-stack {
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    position: absolute;
-    left: 740px;
-    right: 0;
-    background-color: var(--color_blanco);
+    animation-duration: 4s;
+    animation-name: slides;
+    margin-bottom: 40px;
 }
 a:link {
     text-decoration: none;
@@ -120,15 +124,50 @@ a:hover{
     font-size: var(--size_large);
 }
 
-#foto-2 {
-    width: 400;
-    height: 300;
+.enlace__proyectos{
+    color: var(--color_blanco);
+}
+.proyects{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--color_negro_claro);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: var(--color_negro_claro);
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-rows: (2, 1fr);
+}
+.footer__contac_me{
+    grid-row: 1 / 2;
+    grid-column: 2 / 2;
+}
+.fotter__bottom-contact_me{
+    margin-left: 80px;
+}
+.redes_sociales{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    margin-left: 80px;
+}
+.enlace__contact{
+    color: var(--color_blanco);
 }
 
-#proyectos{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: grid;
+.redes_sociales-enlaces{
+    color: var(--color_blanco);
 }
-#footer{
-    background-color: var(--color_negro_claro);
+@keyframes slides {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
