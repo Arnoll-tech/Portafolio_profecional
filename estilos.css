@@ -94,58 +94,51 @@ p {
 .article__title {
     text-align: center;
 }
-.roles{
+.article__roles{
     background-color: var(--color_negro_claro);
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.front-end {
+.roles{
     text-align: center;
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 40px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: var(--color_blanco);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.roles .front-end {
+    margin-top: 20px;
     animation-duration: 2s;
     animation-name: slides;
 
 }
-.back-end {
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    position: relative;
-    background-color: var(--color_blanco);
+.roles .back-end {
     animation-duration: 3s;
     animation-name: slides;
-    margin-bottom: 40px;
 }
-.full-stack {
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    position: relative;
-    background-color: var(--color_blanco);
+.roles .full-stack {
     animation-duration: 4s;
     animation-name: slides;
-    margin-bottom: 40px;
 }
 a:link {
     text-decoration: none;
 }
 a{
     font-size: var(--size_medium);
+    color: var(--color_negro);
 }
 a:hover{
-    font-size: var(--size_large);
+    color: var(--color_azul_secundario);
 }
 
 .enlace__proyectos{
     color: var(--color_blanco);
 }
 .proyects{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     background-color: var(--color_negro_claro);
     border-radius: 20px;
     margin-left: 100px;
