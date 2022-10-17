@@ -75,7 +75,7 @@ hr {
 
 }
 h1{
-    font-size: 25px;
+    font-size: var(--size_medium);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     padding-top: 30px;
     text-align: center;
@@ -102,6 +102,7 @@ p {
 .roles{
     text-align: center;
     position: relative;
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: var(--color_blanco);
@@ -110,7 +111,6 @@ p {
     padding-bottom: 20px;
 }
 .roles .front-end {
-    margin-top: 20px;
     animation-duration: 2s;
     animation-name: slides;
 
@@ -138,13 +138,12 @@ a:hover{
     color: var(--color_blanco);
 }
 .proyects{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    background-color: var(--color_negro_claro);
-    border-radius: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
     text-align: center;
-    margin-bottom: 20px;
+    position: relative;
+    margin: 10px 100px 40px 100px;
+    background-color: var(--color_negro_claro);
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
 .footer{
     background-color: var(--color_negro_claro);
@@ -164,13 +163,10 @@ a:hover{
     grid-column: 1 / 2;
     margin-left: 80px;
 }
-.enlace__contact{
+.redes{
     color: var(--color_blanco);
 }
 
-.redes_sociales-enlaces{
-    color: var(--color_blanco);
-}
 @keyframes slides {
     from{
         margin-left: 100%;
