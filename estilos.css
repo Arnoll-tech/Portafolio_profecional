@@ -134,6 +134,42 @@ a:hover{
     color: var(--color_azul_secundario);
 }
 
+.form{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: var(--color_negro_claro);
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+}
+.contact_me{
+    color: var(--color_blanco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    display: flex;
+    height: 30px;
+    padding: 0px;
+    position: absolute;
+    margin: 5px 80px 10px 170px;
+}
+.form_contact{
+    margin: 70px 80px 10px 145px;
+    position: absolute;
+}
+.controls{
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: var(--size_short);
+    border: 1px solid var(--color_azul_secundario);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';;
+}
+.button{
+    border-radius: 40px;
+    text-align: center;
+}
 .enlace__proyectos{
     color: var(--color_blanco);
 }
