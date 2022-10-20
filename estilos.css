@@ -49,10 +49,6 @@ header{
     margin: 0px 20px 0px 20px;
     border-radius: 5px;
 }
-.article__p{
-    animation-duration: 2s;
-    animation-name: slides;
-}
 
 hr {
     width: 50px;
@@ -63,8 +59,6 @@ h1{
     padding-top: 30px;
     text-align: center;
 }
-
-
 p{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,7 +66,7 @@ p{
     margin-left: 100px;
     margin-right: 100px;
 }
-.article__h1 {
+h3{
     text-align: center;
 }
 .article__div--roles{
@@ -99,21 +93,46 @@ a{
     font-size: var(--size_medium);
     color: var(--color_negro);
 }
-a:hover{
-    background-color: var(--color_azul_secundario);
-    border-radius: 5px;
-}
 .enlace__proyectos{
     color: var(--color_blanco);
 }
-.section__div--proyects{
+.article__div--proyects{
+    width: 1060px;
     text-align: center;
     position: relative;
     margin: 10px 100px 40px 100px;
     background-color: var(--color_negro_claro);
     border-radius: 10px;
-    padding-bottom: 20px;
 }
+.article__div--moduleProyectos{
+    display: flex;
+    justify-content: space-around;
+}
+.article__div--moduleProyectos:hover{
+    width: 1150px;
+    height: 300px;
+    background-color: var(--color_negro);
+    border-radius: 5px;
+}
+.article__div--programs:hover{
+    width: 250px;
+    height: 250px;
+}
+.article__div--programs{
+    background-color: grey;
+    border-radius: 5px;
+    margin: 50px 80px 50px 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.article__div--paragraph{
+    text-align: justify;
+    color: var(--color_blanco);
+    margin: 50px 50px 20px 10px;
+    padding-top: 40px;
+}
+
 .section__div--form{
     height: 500px;
     width: 500px;
@@ -173,4 +192,5 @@ div img{
 .fotter__div--redes{
     display: flex;
     color: var(--color_blanco);
+    padding-left: 20px;
 }
