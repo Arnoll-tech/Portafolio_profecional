@@ -11,6 +11,57 @@
     --size_medium: 25px;
     --size_short: 15px;
 }
+html{
+    font-size: 10px;
+}
+body{
+    background-color: aqua;
+}
+header{
+    background-color: blue; 
+    width: 100%;
+}
+.header__div--icon{
+
+}
+.header__a{
+
+}
+.header__a--name{
+    
+}
+.header__a--profession{
+    
+}
+nav{
+    background-color: brown;
+}
+section{
+    background-color: tomato;
+}
+article{
+    background-color: hotpink;
+}
+aside{
+    background-color: blueviolet;
+}
+footer{
+    background-color: green;
+}
+/*
+:root {
+    --color_azul_principal: #00c8ff;
+    --color_azul_secundario: #55dbff;
+    --color_rojo_principal: #ff170d;
+    --color_rojo_secundario: #ff645e;
+    --color_negro: #000000;
+    --color_negro_claro: #292929;
+    --color_blanco: #eaeae8;
+
+    --size_large: 30px;
+    --size_medium: 25px;
+    --size_short: 15px;
+}
 body {
     background-color: var(--color_blanco);
 
@@ -45,7 +96,7 @@ header{
     margin: auto;
     width: 970px;
     height: 600px;
-    background-image: url("https://cronicasfreelancer.com/wp-content/uploads/2019/08/aprender-a-programar-despues-de-los-30.jpg");
+    background-image: url("");
     margin: 0px 20px 0px 20px;
     border-radius: 5px;
 }
@@ -107,16 +158,19 @@ a{
 .article__div--moduleProyectos{
     display: flex;
     justify-content: space-around;
+    transition: all 2s;
 }
 .article__div--moduleProyectos:hover{
     width: 1150px;
     height: 300px;
     background-color: var(--color_negro);
     border-radius: 5px;
+    transition: all 0.5s;
 }
 .article__div--programs:hover{
     width: 250px;
     height: 250px;
+    transition: all 1s;
 }
 .article__div--programs{
     background-color: grey;
@@ -124,6 +178,7 @@ a{
     margin: 50px 80px 50px 100px;
     height: 200px;
     width: 200px;
+    transition: all 1s;
 }
 
 .article__div--paragraph{
@@ -163,7 +218,8 @@ a{
     border-radius: 5px;
     margin-bottom: var(--size_short);
     border: 1px solid var(--color_azul_secundario);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    transition: all 0.5s;
 }
 
 .button{
@@ -175,6 +231,7 @@ a{
     width: 190px;
     height: 35px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 .footer{
     background-color: var(--color_negro_claro);
@@ -194,3 +251,4 @@ div img{
     color: var(--color_blanco);
     padding-left: 20px;
 }
+*/
