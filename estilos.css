@@ -20,21 +20,46 @@ body{
 header{
     background-color: blue; 
     width: 100%;
+    display: flex;
+    width: 30%;
 }
 .header__div--icon{
-
+    background-color: aquamarine;
 }
 .header__a{
+    display: flex;
+}
+.header__div--title{
+    background-color: #ff170d;
 
 }
 .header__a--name{
-    
+    background-color: #00c8ff;
+
 }
 .header__a--profession{
-    
+    background-color: #ff645e;
+
+}
+.headerNav{
+    display: flex;
 }
 nav{
     background-color: brown;
+}
+.nav{
+    width: 70%;
+}
+.nav__ul{
+    display: flex;
+    background-color: #000000;
+}
+.nav__ul--li{
+    background-color: #eaeae8;
+    width: 9rem;
+    height: 3rem;
+    margin: 1rem;
+    margin-right: 3rem;
 }
 section{
     background-color: tomato;
