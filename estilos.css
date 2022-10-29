@@ -15,58 +15,81 @@ html{
     font-size: 10px;
 }
 body{
-    background-color: aqua;
+    background-color: var(--color_blanco);
 }
 header{
-    background-color: blue; 
     width: 100%;
     display: flex;
     width: 30%;
 }
 .header__div--icon{
-    background-color: aquamarine;
 }
 .header__a{
     display: flex;
+    text-decoration: none;
 }
 .header__div--title{
-    background-color: #ff170d;
-
+    text-align: left;
+    line-height: 1.2rem;
 }
 .header__a--name{
-    background-color: #00c8ff;
-
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header__a--profession{
-    background-color: #ff645e;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 .headerNav{
     display: flex;
-}
-nav{
-    background-color: brown;
 }
 .nav{
     width: 70%;
 }
 .nav__ul{
     display: flex;
-    background-color: #000000;
+    justify-content: space-around;
 }
 .nav__ul--li{
-    background-color: #eaeae8;
     width: 9rem;
     height: 3rem;
-    margin: 1rem;
-    margin-right: 3rem;
+    border: solid 0.1rem var(--color_azul_secundario);
+    border-radius: 3rem;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s;
 }
-section{
-    background-color: tomato;
+.nav__ul--li:hover{
+    width: 10rem;
+    height: 4rem;
+    box-shadow: 1rem 1rem 1rem var(--color_negro_claro);
 }
-article{
-    background-color: hotpink;
+.nav__li--a{
+    text-decoration: none;
 }
+.img{
+    width: 40rem;
+    height: 40rem;
+}
+.section{
+    background-color: teal;
+}
+.article{
+    background-color: chocolate;
+    width: 100%;
+    display: block;
+}
+.article__div--aboutMe{
+    background-color: #292929;
+    height: 1rem;
+}
+.article__h1{
+
+}
+.article__p{
+
+}
+
 aside{
     background-color: blueviolet;
 }
