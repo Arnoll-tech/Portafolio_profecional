@@ -74,14 +74,46 @@ header{
     color: var(--color_blanco);
     text-decoration: none;
     text-align: center;
-} 
 
-.image{
+} 
+.div__portada{
     width: 100%;
-    height: 40rem;
-    background-image: url(/img/pexels-nemuel-sereti-6424583.jpg);
+    height: 60rem;
+    display: inline-block;
     background-size: cover;
     border-radius: 1rem;
+    justify-content: center;
+}
+ .div__portada--imagen{
+    width: 100%;
+    height: 60rem;
+    background-image: url(img/pexels-lukas-574073.jpg);
+    background-size: cover;
+    border-radius: 0%;
+    background-color: var(--color_negro_claro);
+    position: relative;
+} 
+#div__portada--titulos{
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 50rem;
+  left: 30rem;
+  display: block;
+  background-color: var(--color_negro_claro);
+  border-radius: 2rem;
+  color: var(--color_blanco);
+  opacity: 0.7;
+}
+h1.div__portada--text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--size_medium);
+    margin: 2.5rem;
+}
+h2.div__portada text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--size_medium);
+    margin: 2.5rem;
 }
 .section{
     position: relative;
@@ -103,9 +135,6 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--size_medium);
     padding-top: 3rem;
-}
-#ComoPuedoAyudarte{
-    color: var(--color_blanco);
 }
 .article__p{
     font-size: 1.6rem;
