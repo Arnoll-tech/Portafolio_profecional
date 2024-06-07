@@ -7,13 +7,14 @@
 
 ## Como hacer commits para aportes
     1. Especifica el tipo de commit:
-    **feat**: La nueva característica que agregas a una aplicación en particular
-    **fix**: Un parche para un error
-    **style**: Características o actualizaciones relacionadas con estilos
-    **refactor**: Refactorizar una sección específica de la base de código
-    **test**: Todo lo relacionado con pruebas
-    **docs**: Todo lo relacionado con documentación
-    **chore*: Mantenimiento de código regular.
+
+    **feat** : La nueva característica que agregas a una aplicación en particular.
+    **fix**: Un parche para un error.
+    **style**: Características o actualizaciones relacionadas con estilos.
+    **refactor**: Refactorizar una sección específica de la base de código.
+    **test**: Todo lo relacionado con pruebas.
+    **docs**: Todo lo relacionado con documentación.
+    **chore** : Mantenimiento de código regular.
 
     2. Separa el título del cuerpo del mensaje con una línea en blanco.
 

@@ -51,34 +51,29 @@ header{
 }
 .nav__ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.nav__ul--li:hover{
-    width: 15rem;
-    height: 5rem;
-}
+
 .nav__ul--li{
-    width: 10rem;
-    height: 4rem;
+    display: flex;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.1s;
+    justify-content: space-around;
 }
 .nav__ul--li:hover{
     box-shadow: 1rem 1rem 1rem var(--color_blanco);
     color: var(--color_negro);
     font-size: var(--size_medium);
+    box-sizing: 1.5rem;
+    padding: 0.5rem;
 }
-.nav__li--a{
-    display: flex;
-    justify-content: space-between;
-}
+
 .nav__li--a {
-    font-size: auto;
+    font-size: 1.5rem;
     color: var(--color_blanco);
     text-decoration: none;
     text-align: center;
-    padding: 1rem;
 } 
 
 .image{
