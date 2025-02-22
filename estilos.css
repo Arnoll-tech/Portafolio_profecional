@@ -15,7 +15,7 @@ html{
     font-size: 10px;
 }
 body{
-    background-color: var(--color_blanco);
+    background-color: var(--color_negro_claro);
 }
 header{
     width: 100%;
@@ -62,11 +62,12 @@ header{
     justify-content: space-around;
 }
 .nav__ul--li:hover{
-    box-shadow: 1rem 1rem 1rem var(--color_blanco);
+    box-shadow: 1rem 1rem var(--color_azul_principal);
     color: var(--color_negro);
     font-size: var(--size_medium);
     box-sizing: 1.5rem;
     padding: 0.5rem;
+    border-radius: 2rem;
 }
 
 .nav__li--a {
